@@ -1,0 +1,8 @@
+package interaction;
+
+public class Seller {
+	// 변수로 int money(매출), int mango(재고)를 가집니다.
+	private int money;
+	private int mango;
+	
+}
