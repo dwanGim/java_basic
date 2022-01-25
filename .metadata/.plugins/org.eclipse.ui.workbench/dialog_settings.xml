@@ -9,8 +9,13 @@
 	<section name="ZipFileImportWizard">
 		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\user\Downloads\210121(강사).zip"/>
+			<item value="C:\Users\user\Downloads\210120(강사).zip"/>
+			<item value="C:\Users\user\Downloads\20220119 16차시 (1).zip"/>
 			<item value="C:\Users\user\Downloads\20220119 16차시.zip"/>
 			<item value="C:\Users\user\Downloads\14차시.zip"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>
