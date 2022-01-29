@@ -18,20 +18,33 @@ public class String03P399 {
 		System.out.println("찾고 싶은 글자를 입력해주세요. : ");
 		String s2 = scan.nextLine();
 		
-		int get = s1.indexOf(s2);
-		int getNum = s1.indexOf(s2);
 		
-		for (int i = 0; i < s1.length(); i++) {
-		get = s1.indexOf(s2, i);
-			if (get == get) {
+		int i = 0;
+		int count = 0;
 			
-		}
+		
+		while (s1.length() > i) {
 			
-		}
+			
+			int get = s1.indexOf(s2, i);
+			
+			
+			if ( i == get) {
+			System.out.println("찾았습니다" + i + "에 있네요.");
+			
+			count++;
+			
+			}
+			
+			i++;
 		
-		System.out.println(get);
+			
+			}
+		System.out.println("일치하는 단어를 " + count + "개 찾았습니다.");
 		
-		System.out.println();
+		
+		
+		
 	}
 
 }

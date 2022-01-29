@@ -11,7 +11,7 @@ public class String02P399 {
 		System.out.println(get);
 		
 		// 중복문자 집계(0번이 아닌 1번 인덱스부터 조회해서 처음으로 나오는 to조회)
-		get = tomato.indexOf("to", 1);
+		get = tomato.indexOf("to", 4);
 		System.out.println(get);
 		
 		//없는 문자열 조회시 가상의 인덱스 번호를 줍니다.
