@@ -21,7 +21,7 @@ public class String03P399 {
 		
 		int i = 0;
 		int count = 0;
-			
+			 
 		
 		while (s1.length() > i) {
 			
@@ -30,7 +30,7 @@ public class String03P399 {
 			
 			
 			if ( i == get) {
-			System.out.println("찾았습니다" + i + "에 있네요.");
+			System.out.println("찾았습니다" + i + "번째에 있네요.");
 			
 			count++;
 			
