@@ -9,7 +9,7 @@ public class String01P399 {
 		char get = greeting.charAt(6);
 		System.out.println(get);
 		
-		// 자바는 문자열 인덱싱을 허용하지 않습니다.
+		// 자바는 문자열 인덱싱을 허용하지 않습니다. 
 		// System.out.printLn(greeting[6]);
 
 	}
