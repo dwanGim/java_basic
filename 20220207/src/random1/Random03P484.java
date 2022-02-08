@@ -1,5 +1,7 @@
 package random1;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Random03P484 {
@@ -17,6 +19,9 @@ public class Random03P484 {
 		// 따라서 정수 숫자 하나(n)를 파라미터로 넣어줘야 0 <- 결과값 < n이 나옵니다.
 		int result2 = random.nextInt(5);
 		System.out.println(result2);
+	
+		List<Integer> list1 = new ArrayList<>();
+		
 	}
 
 }
